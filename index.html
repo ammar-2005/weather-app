@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>APIs</title>
+    <!-- ^ favicon -->
+    <link
+      rel="shortcut icon"
+      href="./images/Unofficial_JavaScript_logo_2.svg.png"
+      type="image/x-icon"
+    />
+    <!-- ^ main css file -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="card">
+      <div class="search-container">
+        <input type="text" class="search-input" placeholder="Search city..." />
+        <button class="search-btn">🔍</button>
+      </div>
+
+      <h1 class="cityName">London</h1>
+      <span class="status">Cloudy</span>
+      <div class="icon">
+        <img src="//cdn.weatherapi.com/weather/64x64/night/113.png" alt="" />
+      </div>
+      <div class="temp"><span>25</span><span class="unit">°C</span></div>
+
+      <div class="additional-info">
+        <div class="info-item">
+          <div class="info-label">Humidity</div>
+          <div class="info-value humidityValue">65%</div>
+        </div>
+        <div class="info-item">
+          <div class="info-label">Wind</div>
+          <div class="info-value windValue"><span>12</span> km/h</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ^ main js file -->
+     
+    <script src="js/config.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
